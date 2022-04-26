@@ -1,0 +1,182 @@
+.title {
+  background-color: red;
+}
+
+.details {
+  box-sizing: border-box;
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.backdrop {
+  width: 100%;
+  height: 100%;
+}
+
+.info-container {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 70%;
+  height: 70%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0, 0, 0, 0.8);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+.bi-x-circle-fill {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  color: #dcdcdc;
+  cursor: pointer;
+}
+
+.movie-image {
+  box-sizing: border-box;
+  max-width: 90%;
+  max-height: auto;
+  margin: 0;
+  padding: 20px;
+  display: inline-block;
+}
+
+.movie-image img {
+  width: 80%;
+}
+
+.movie-description {
+  box-sizing: border-box;
+  width: 60%;
+  margin: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.movie-title {
+  color: black;
+}
+.movie-title-white {
+  color: white;
+}
+
+.moive-date {
+  font-size: larger;
+  padding: 5px;
+  color: white;
+}
+
+.movie-genre {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.movie-genre span {
+  color: #fff;
+  margin-right: 1rem;
+  height: 1.9rem;
+  line-height: 1.9rem;
+  width: auto;
+  padding: 0 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.movie-overview {
+  margin-top: 2rem;
+  padding: 5px;
+  border-style: groove;
+  border-radius: 20px;
+  font-size: large;
+  color: white;
+}
+
+.movie-vote {
+  margin-top: 1rem;
+  padding: 10px;
+  font-size: larger;
+  color: white;
+}
+
+#Action {
+  background-color: red;
+}
+
+#Adventure {
+  background-color: green;
+}
+
+#Animation {
+  background-color: yellowgreen;
+}
+
+#Comedy {
+  background-color: rgb(175, 175, 3);
+}
+
+#Crime {
+  background-color: black;
+}
+
+#Documentary {
+  background-color: grey;
+}
+
+#Drama {
+  background-color: peru;
+}
+
+#Family {
+  background-color: olivedrab;
+}
+
+#Fantasy {
+  background-color: lightblue;
+}
+
+#History {
+  background-color: darkgray;
+}
+
+#Horror {
+  background-color: rgb(94, 19, 19);
+}
+
+#Music {
+  background-color: navy;
+}
+
+#Mystery {
+  background-color: rgb(22, 4, 4);
+}
+
+#Romance {
+  background-color: pink;
+}
+
+#ScienceFiction {
+  background-color: sienna;
+}
+
+#TVMovie {
+  background-color: red;
+}
+
+#Thriller {
+  background-color: goldenrod;
+}
+
+#Western {
+  background-color: rgb(56, 42, 42);
+}
+
+#color37 {
+  background-color: bisque;
+}

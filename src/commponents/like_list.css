@@ -1,0 +1,81 @@
+.page {
+  justify-content: center;
+  text-align: center;
+  background-color: inherit;
+}
+
+.subtitle {
+  margin-top: 1rem;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.like_lists_container {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  position: absolute;
+  padding-bottom: 20px;
+}
+.each {
+  background-color: inherit;
+  margin: 2rem 1rem 0 0;
+  width: 234px;
+  height: 352px;
+}
+
+.each:hover .img {
+  height: 310px;
+  transition: 1s;
+  background-position: bottom;
+}
+
+.img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 234px;
+  height: 352px;
+}
+
+.each:hover .button_blow {
+  height: 42px;
+  /* transition: 1s; */
+}
+
+.button_blow {
+  display: flex;
+  text-align: left;
+  z-index: -1;
+  height: 0;
+}
+
+.button_blow > div {
+  width: 30px;
+  cursor: pointer;
+  margin: 6px;
+}
+
+.trash {
+  background-image: url("../assets/img/trash_can.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.discard {
+  background-image: url("../assets/img/no_entry.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dots {
+  background-image: url("../assets/img/threeDots.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heart {
+  background-image: url("../assets/img/heart.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
